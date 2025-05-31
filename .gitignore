@@ -1,0 +1,23 @@
+# Visual Environment Folder - Ordner für virtuelle Umgebungen
+venv/
+
+#Python bytecode
+__pycache__/
+*.pyc
+
+#Jupyter Notebook checkpoints -Jupyter Notebook-Prüfpunkte
+.ipynb_checkpoints/
+
+# Temporary files -Temporäre Dateien
+*.log
+*.tmp
+
+# IDE/ Editor files
+.idea/
+.vscode/
+
+# Result File- Ergebnisse Dateien
+results/*
+
+# .gitkeep  - Datei ausschließen !!!
+!results/.gitkeep
